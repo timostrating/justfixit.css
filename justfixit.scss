@@ -1,0 +1,46 @@
+/* justfixit.scss
+   ------------------------------------------ */
+
+.clear { clear:both; font-size:0; }
+.float-clear {clear: left; display: block;}
+
+.rel {  position: relative; }
+.abs {  position: relative; }
+
+.tr {   text-align: right; }
+.tl {   text-align: left; }
+.tc {   text-align: center; }
+
+.g-center { float: none; margin: 0 auto; }
+.scaleContainer, .t-center { display: table; margin: 0 auto; }
+.verticle-center {  position: absolute;  top: 50%;  transform: translateY(-50%); }
+
+.no-3d { -webkit-transform-style: preserve-3d;  -moz-transform-style: preserve-3d;  transform-style: preserve-3d; }  // is needed as parent for verticle-center
+
+.hide { display: none !important; }
+.hidden { opacity: 0; visibility: hidden; }
+.block { display: block !important; }
+.inline-block { display: inline-block !important;}
+
+.m0a { margin: 0 auto !important; }
+.ma0 { margin: auto 0 !important; }
+
+.p20-0 { padding: 20px 0 !important }
+
+
+$num: 100;                           // STYLE HELPER CLASSES
+@while $num > -1 {
+    .m#{$num}  { margin:             #{$num}px !important; }
+    .mt#{$num} { margin-top:         #{$num}px !important; }
+    .mr#{$num} { margin-right:       #{$num}px !important; }
+    .mb#{$num} { margin-bottom:      #{$num}px !important; }
+    .ml#{$num} { margin-left:        #{$num}px !important; }
+
+    .p#{$num}  { padding:            #{$num}px !important; }
+    .pt#{$num} { padding-top:        #{$num}px !important; }
+    .pr#{$num} { padding-right:      #{$num}px !important; }
+    .pb#{$num} { padding-bottom:     #{$num}px !important; }
+    .pl#{$num} { padding-left:       #{$num}px !important; }
+
+    $num: $num - 5;
+}
