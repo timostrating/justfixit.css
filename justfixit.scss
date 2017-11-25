@@ -48,21 +48,21 @@
 .w100 { width: 100%; }
 
 
-$num: 100;                           // STYLE HELPER CLASSES
+$num: 15;                           // STYLE HELPER CLASSES
 @while $num > -1 {
-    .m#{$num}  { margin:             #{$num}px !important; }
-    .mt#{$num} { margin-top:         #{$num}px !important; }
-    .mr#{$num} { margin-right:       #{$num}px !important; }
-    .mb#{$num} { margin-bottom:      #{$num}px !important; }
-    .ml#{$num} { margin-left:        #{$num}px !important; }
+    .m#{$num}  { margin:             #{$num}em !important; }
+    .mt#{$num} { margin-top:         #{$num}em !important; }
+    .mr#{$num} { margin-right:       #{$num}em !important; }
+    .mb#{$num} { margin-bottom:      #{$num}em !important; }
+    .ml#{$num} { margin-left:        #{$num}em !important; }
 
-    .p#{$num}  { padding:            #{$num}px !important; }
-    .pt#{$num} { padding-top:        #{$num}px !important; }
-    .pr#{$num} { padding-right:      #{$num}px !important; }
-    .pb#{$num} { padding-bottom:     #{$num}px !important; }
-    .pl#{$num} { padding-left:       #{$num}px !important; }
+    .p#{$num}  { padding:            #{$num}em !important; }
+    .pt#{$num} { padding-top:        #{$num}em !important; }
+    .pr#{$num} { padding-right:      #{$num}em !important; }
+    .pb#{$num} { padding-bottom:     #{$num}em !important; }
+    .pl#{$num} { padding-left:       #{$num}em !important; }
 
-    $num: $num - 5;
+    $num: $num - 1;
 }
 
 $num: 40;                           // STYLE HELPER CLASSES
