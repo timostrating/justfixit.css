@@ -11,7 +11,7 @@
 .float-clear {clear: left; display: block;}
 
 .rel {  position: relative; }
-.abs {  position: relative; }
+.abs {  position: absolute; }
 
 .tr {   text-align: right; }
 .tl {   text-align: left; }
@@ -33,9 +33,7 @@
         display: -ms-flexbox;
         display: flex; }
 
-.upper {
-	text-transform: uppercase;
-}
+.uppercase { text-transform: uppercase; }
 
 .ullino {
 	list-style-type: none;
@@ -62,17 +60,5 @@ $num: 15;                           // STYLE HELPER CLASSES
     .pb#{$num} { padding-bottom:     #{$num}em !important; }
     .pl#{$num} { padding-left:       #{$num}em !important; }
 
-    $num: $num - 1;
-}
-
-$num: 40;                           // STYLE HELPER CLASSES
-@while $num > 10 {
-    .f#{$num}  { font-size: #{$num}px !important; }
-    $num: $num - 1;
-}
-
-$num: 40;                           // STYLE HELPER CLASSES
-@while $num > 10 {
-    .lh#{$num}  { line-height: #{$num}px !important; }
     $num: $num - 1;
 }
