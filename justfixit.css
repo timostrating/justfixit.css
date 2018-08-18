@@ -21,6 +21,7 @@
 .m0a { margin: 0 auto !important; }
 .ma0 { margin: auto 0 !important; }
 .w100 { width: 100%; }
+.mw100 { max-width: 100%; }
 .m15 { margin: 15em !important; } .mt15 { margin-top: 15em !important; } .mr15 { margin-right: 15em !important; } .mb15 { margin-bottom: 15em !important; } .ml15 { margin-left: 15em !important; }
 .p15 { padding: 15em !important; } .pt15 { padding-top: 15em !important; } .pr15 { padding-right: 15em !important; } .pb15 { padding-bottom: 15em !important; } .pl15 { padding-left: 15em !important; }
 .m14 { margin: 14em !important; } .mt14 { margin-top: 14em !important; } .mr14 { margin-right: 14em !important; } .mb14 { margin-bottom: 14em !important; } .ml14 { margin-left: 14em !important; }
