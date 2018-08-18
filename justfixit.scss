@@ -44,7 +44,7 @@
 .ma0 { margin: auto 0 !important; }
 
 .w100 { width: 100%; }
-
+.mw100 { max-width: 100%; }
 
 $num: 15;                           // STYLE HELPER CLASSES
 @while $num > -1 {
